@@ -1,0 +1,24 @@
+'c' "string" string   //This is comment
+float
+enum
+555.55
+static
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void) {
+	printf("Hello world!\n");
+    //这是一行注释
+    // 这是带空格的注释
+	return 0;
+}
+
+static char* strtoken(Token token) {
+    switch (token.type) {
+        // 单字符Token
+    case TOKEN_LEFT_PAREN:      return "(";
+    case TOKEN_RIGHT_PAREN:     return ")";
+    case TOKEN_LEFT_BRACKET:    return "[";
+
+    a > b
